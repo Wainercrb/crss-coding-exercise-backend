@@ -23,7 +23,7 @@ routes.push(new UsersRoutes(app));
 routes.push(new CountryRoutes(app));
 
 
-
+console.log('app listen on', PORT)
 app.listen(PORT, () => {
   routes.forEach((route: CommonRoutesConfig) => {
     console.log(`Routes configured for ${route.getName}`);
