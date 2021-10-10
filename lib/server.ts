@@ -4,7 +4,7 @@ import { CommonRoutesConfig } from './common/common.routes.config';
 import { UsersRoutes } from './services/user/routes.config';
 import { CountryRoutes } from './services/covid19/routes.config';
 
-const PORT = process.env.APP_PORT || 3200;
+const PORT = process.env.APP_PORT || 3000;
 
 const app = express();
 const routes: Array<CommonRoutesConfig> = [];

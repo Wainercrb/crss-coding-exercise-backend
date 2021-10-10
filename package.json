@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "tsc && env-cmd -f .env node ./dist/server.js",
     "dev": "env-cmd -f .env ts-node-dev ./lib/server.ts",
